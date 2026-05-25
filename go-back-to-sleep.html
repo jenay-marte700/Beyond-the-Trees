@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Beyond the Trees</title>
+
+  <style>
+    
+    body {
+      margin: 0;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: "Roboto", sans-serif; 
+      font-weight: bold; 
+    }
+
+    .image-container {
+      position: relative;
+    }
+
+    .image-container img {
+      max-width: 80vw;
+      max-height: 80vh;
+      display: block;
+    }
+
+       .title-box {
+     position: absolute;
+     top: 15px;
+     left: 50%;
+     transform: translateX(-50%);
+     padding: 5px 15px;
+     background-color: white;
+     color: black;
+     border: 2px outset grey;
+     font-size: 14px;
+     text-align: center;
+     max-width: 90%;
+   }
+
+
+    .begin-button {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  padding: 5px 20px;
+  background-color: rgb(185, 185, 185);
+  color: rgb(0, 0, 0);
+  border: 2px outset white;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.begin-button:hover {
+  background-color: rgb(167, 167, 167);
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div class="image-container">
+    <img src="images/dark.jpeg" alt="Bedroom">
+
+       <div class="title-box">
+     You close your eyes.<br>
+The rustling gets louder.<br>
+Everything goes dark.
+   </div>
+
+    <a href="home.html" class="begin-button">Next</a>
+  </div>
+
+</body>
+</html>
+
